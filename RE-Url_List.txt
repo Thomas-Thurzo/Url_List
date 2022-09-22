@@ -1,0 +1,26 @@
+Requirement Engineering für Url_List Programm:
+
+Anforderungen:
+Eine Gui mit einem Eingabefeld für eine URL.
+Ein Button in der GUI, wenn ich dort drücke listet das Programm alle Files und Ordner der URL.
+Checken, ob bei den Files Pdfs enthalten sind.
+Wenn PDFs enthalten sind dann diese zusammenführen und als eine PDF ausgeben.
+Überall ein Exception Handling implementieren.
+Überall ein Logging implementieren.
+Das Programm mit Packages und Modulen strukturieren.
+
+Mögliche Libraries für die GUI:
+
+Python Kivy
+Python Tkinter
+
+Mögliche Ausgabe der Files:
+import os
+os.getcwd()
+
+oder 
+
+ls
+
+
+
